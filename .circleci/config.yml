@@ -6,6 +6,8 @@ orbs:
 # jobs
 jobs:
   function:
+    docker:
+      - image: circleci/node:10
     steps:
       - install:
         name: install dependencies
